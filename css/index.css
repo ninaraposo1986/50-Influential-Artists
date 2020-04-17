@@ -98,5 +98,19 @@ nav a {
   font-size: 1.5rem;
 }
 .title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-image: url("../assets/home.png");
+  background-size: contain;
+  width: 60%;
+  height: 740px;
+}
+.title-container h1 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 3rem;
+}
+.title-container button {
+  height: 50px;
 }
